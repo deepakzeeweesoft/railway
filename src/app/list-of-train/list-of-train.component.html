@@ -1,0 +1,32 @@
+<h1>list-of-train works!</h1>
+<!-- <ul>
+    <li *ngFor="let yas of collection">
+           {{yas.status}}
+    </li>
+</ul> -->
+<table class="table table-dark">
+    <thead  >
+      <tr>
+        <th scope="col">Serial-NO</th>
+        <th scope="col">id</th>
+        <th scope="col">Train-No</th>
+        <th scope="col">Train-Name</th>
+        <th scope="col">passenger-Name</th>
+        <th scope="col">status</th>
+        <th scope="col">Modification</th>
+      </tr>
+    </thead>
+    <tbody  >
+      <tr *ngFor="let sac of collection">
+        <th scope="row">{{sac.id}}</th>
+        <td>{{sac.id}}</td>
+        <td>{{sac.TrainNo}}</td>
+        <td>{{sac.TrainName}}</td>
+        <td>{{sac.passengerName}}</td>
+        <td>{{sac.status}}</td>
+<a routerLink="/modi/{{sac.id}}"> <i class="fas fa-pen-alt" style="font-size:20px;color: chartreuse;"></i></a>
+ <td> <i (click)="deleteTrain(sac.id)" class="fa fa-trash" style="font-size:20px;color:red;"></i></td>
+      </tr>
+     
+    </tbody>
+  </table>

@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "railway"
+    }
+  },
+  "defaultProject": "railway",
+  "cli": {
+    "analytics": "c0ec25f4-81bc-47b4-889e-f7e4dee8d4da"
+  }
 }

@@ -1,0 +1,35 @@
+<h1>modification At here!</h1>
+
+<!-- <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Success!</strong> your data has been entered.
+    <button (click)="closeAlert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div> -->
+
+<form [formGroup]="modiTrain">
+  <div class="form-group">
+    <label for=TrainNo>TrainNo</label>
+    <input type="number" class="form-control" formControlName="TrainNo" placeholder="Enter Train-NO">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Train Name</label>
+    <input type="text" class="form-control" formControlName="TrainName" placeholder="Enter Train-Name">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Passenger Name</label>
+    <input type="text" class="form-control" formControlName="passengerName" placeholder="Enter Passenger-Name">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Enter status</label>
+    <input type="text" class="form-control" formControlName="status" placeholder="Enter Status">
+  </div>
+
+  <div class="sachin">
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+  </div>
+</form>

@@ -1,0 +1,67 @@
+{
+  "Train": [
+    {
+      "TrainNo": "",
+      "TrainName": "satabdhi express",
+      "passengerName": "mandloi ji",
+      "status": "2-tyer",
+      "id": 513
+    },
+    {
+      "TrainNo": "",
+      "TrainName": "jay shri ram",
+      "passengerName": "Ram",
+      "status": "possitive",
+      "id": 519
+    },
+    {
+      "TrainNo": "",
+      "TrainName": "narmada exp",
+      "passengerName": "dubeyji",
+      "status": "1-AC",
+      "id": 523
+    },
+    {
+      "TrainNo": "",
+      "TrainName": "Narmada exp",
+      "passengerName": "paadi",
+      "status": "1-AC",
+      "id": 525
+    },
+    {
+      "TrainNo": "",
+      "TrainName": "xyz",
+      "passengerName": "Rahul sir",
+      "status": "1 ac",
+      "id": 526
+    },
+    {
+      "TrainNo": "",
+      "TrainName": "paadi exp",
+      "passengerName": "sutta",
+      "status": "resurved",
+      "id": 527
+    },
+    {
+      "TrainNo": 45780,
+      "TrainName": "super express",
+      "passengerName": "sachine",
+      "status": "1-AC",
+      "id": 530
+    },
+    {
+      "TrainNo": 45203,
+      "TrainName": "satabdhi express",
+      "passengerName": "dubey bhai",
+      "status": "waitaing",
+      "id": 531
+    },
+    {
+      "TrainNo": 78520,
+      "TrainName": "narmada express",
+      "passengerName": "sachin",
+      "status": "1-AC",
+      "id": 532
+    }
+  ]
+}
